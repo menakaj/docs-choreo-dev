@@ -92,7 +92,7 @@ nav:
       - Connections: choreo-concepts/connections.md
       - Data Planes: choreo-concepts/data-planes.md
       - Environments: choreo-concepts/environments.md
-      - Choreo Marketplace: choreo-concepts/choreo-marketplace.md
+      - Service Catalog: choreo-concepts/choreo-marketplace.md
   - Develop Components:
       - Develop Services:
           - Service Component Overview: develop-components/develop-services/service-component-overview.md

@@ -100,10 +100,10 @@ You can invoke the service as follows:
 
 - For languages with OAuth 2.0-aware HTTP clients, you can invoke the service in a straightforward manner. The HTTP client seamlessly manages OAuth 2.0 authentication without requiring additional intervention.
 
-    As the service URL you can use the URL that you resolved in [step 2](#step-2-read-configurations-within-the-application). For sample requests and responses, see the API definition provided via the Choreo marketplace for the service.
+    As the service URL you can use the URL that you resolved in [step 2](#step-2-read-configurations-within-the-application). For sample requests and responses, see the API definition provided via the Service Catalog for the service.
 
 - For languages without OAuth 2.0-aware HTTP clients, you can use the token obtained in [step 3](#step-3-acquire-an-oauth-20-access-token) to make calls to the dependent service. Subsequently, add the obtained token to the HTTP authorization header with the bearer prefix.
-As the service URL you can use the URL that you resolved in [step 2](#step-2-read-configurations-within-the-application). For sample requests and responses, see the API definition of the service provided via the Choreo marketplace.
+As the service URL you can use the URL that you resolved in [step 2](#step-2-read-configurations-within-the-application). For sample requests and responses, see the API definition of the service provided via the Service Catalog.
 
     The following is a sample code snippet in NodeJS:
 

@@ -99,7 +99,7 @@ The `component-config.yaml` file complements and enhances the existing endpoint 
 
 - **Inbound configurations:** This configuration section is for you to define inbound connections, Similar to `endpoints.yaml`, you can define how your service endpoints are exposed. It aligns seamlessly with the existing endpoint schema structure.
 
-- **Outbound configurations:** This configuration section is for you to specify outbound connection details, including service connections. The Choreo Internal Marketplace facilitates creating connections with existing services. To learn more about Choreo Marketplace, see [Choreo Marketplace](https://wso2.com/choreo/docs/choreo-concepts/choreo-marketplace/#choreo-marketplace).
+- **Outbound configurations:** This configuration section is for you to specify outbound connection details, including service connections. The Choreo Service Catalog facilitates creating connections with existing services. To learn more about Service Catalog, see [Service Catalog](https://wso2.com/choreo/docs/choreo-concepts/choreo-marketplace/#choreo-marketplace).
 
 !!! note
     - If both `component-config.yaml` and `endpoints.yaml` are defined in the `.choreo` path, the `component-config.yaml` file takes priority.
@@ -123,7 +123,7 @@ In the `spec.inbound` configuration section, you can specify endpoints to set up
 
 #### Outbound connection configurations (`spec.outbound`)
 
-In the `spec.outbound` section, you can define `serviceReferences`. To define `serviceReferences`, you can use the service references generated in the Internal Marketplace when creating a service connection. To copy the [outbound connection configurations](https://wso2.com/choreo/docs/develop-components/sharing-and-reusing-services/#sharing-and-reusing-services), see the inline developer guide that is available when you create a connection.
+In the `spec.outbound` section, you can define `serviceReferences`. To define `serviceReferences`, you can use the service references generated in the Service Catalog when creating a service connection. To copy the [outbound connection configurations](https://wso2.com/choreo/docs/develop-components/sharing-and-reusing-services/#sharing-and-reusing-services), see the inline developer guide that is available when you create a connection.
 
 The `serviceReferences` schema has a specific structure and contains the following details:
 
@@ -179,7 +179,7 @@ spec:
       schemaFilePath: greeting_openapi.yaml
   # +optional Outgoing connection details for the component.
   outbound:
-    # +optional Defines the service references from the Internal Marketplace.
+    # +optional Defines the service references from the Service Catalog.
     serviceReferences:
       # +required Name of the service reference.
       - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC

@@ -12,7 +12,7 @@ To create a connection, follow the steps given below:
     - **Component Connection**: Select an organization, a project in that organization, and a component in the selected project. 
 
 2. From the left navigation menu, click **Dependencies**  and then **Connections**. This page will list the currently available connections.
-3. Click **+Create**. The **Create Connection** page opens with the marketplace view for you to browse the available services. You can search and apply filters to efficiently find a service.
+3. Click **+Create**. The **Create Connection** page opens with the Service Catalog view for you to browse the available services. You can search and apply filters to efficiently find a service.
 4. Click on the service you want to connect to. 
 5. Enter a name and a description for the connection and click **Next**. This displays the ServiceURL for the development and production environments. 
 6. Click **Finish**.
