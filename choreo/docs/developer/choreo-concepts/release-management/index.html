@@ -4130,9 +4130,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <h1 id="release-management">Release Management<a class="headerlink" href="#release-management" title="Permanent link">&para;</a></h1>
 <p>Release management is the process of managing, planning, scheduling and controlling a software build through different stages and environments; it includes testing and deploying software releases.</p>
 <h2 id="release">Release<a class="headerlink" href="#release" title="Permanent link">&para;</a></h2>
-<p>A <strong>Release</strong> represents a deployable state comprising specific runtime artifacts and associated environment independent configurations bundled together. Each release is uniquely identifiable and not bound to a deployment environment, ensuring traceability across environments. A release is created when a build is first being deployed.</p>
+<p>A Release represents a uniquely identifiable, environment-independent bundle of runtime artifacts and configurations created when a build is first deployed.</p>
 <h2 id="release-deployment">Release Deployment<a class="headerlink" href="#release-deployment" title="Permanent link">&para;</a></h2>
-<p>A <strong>Release Deployment</strong> represents the state when a release is deployed to an environment with any environment dependent configuration. Each release can be deployed to an environment multiple times, changing environment configuration resulting a new release deployment at each time. </p>
+<p>A Release Deployment represents a Release deployed to a specific environment with environment-dependent configuration. A given release can be deployed multiple times to the same or different environments, and each deployment produces a distinct release deployment due to differences in environment configuration.</p>
 <h2 id="release-naming-convention">Release Naming Convention<a class="headerlink" href="#release-naming-convention" title="Permanent link">&para;</a></h2>
 <p>A structured naming format (<code>&lt;date&gt;-&lt;release number&gt;.&lt;config-revision&gt;.&lt;deployment-count&gt;</code>, e.g., 20250404-1.1.1) is being used for maintaining clarity and consistency across different environments.</p>
 <p>Ex: 20260319-1.1.1</p>
